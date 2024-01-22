@@ -1,10 +1,10 @@
 article{
     width: 200px;
     margin: 17px;
-    border: 1px solid black;
     background-color: #cda05c;
     
 }
+
 .affiche{
     width: 200px;
     object-fit: contain;
@@ -23,17 +23,19 @@ article h2 {
 }
 nav li{
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0px;
+    
+    padding: 0.2rem;
     margin-left: 0px;
-    width: 187px;
+    
     height: 25px; 
     display: flex;
+    border-radius: 7px;
 }
 nav li:hover{
     background-color: #989090;
+    cursor: pointer;
 }
+
 
 nav a{
     text-decoration: none;
@@ -48,26 +50,29 @@ nav a:hover{
 }
 ul {
     list-style-type: none;
-    margin-left: 5px;
+    margin-left: 0px;
     padding-left: 0px;
-
+    /*padding-right: 3px;*/
+    border-radius: 7px;
+    background-color: #EEB868;
+    
   }
 .genre{
     width: 25px;
     height: 25px;
-    -moz-border-radius:7px;
--webkit-border-radius:7px;
-border-radius:7px;
+    border-radius:7px;
+    padding-left: 1px;
+
 }
 
 .container{
     display:grid;
     grid-template: 5rem 5rem auto 10rem/12rem auto;
     grid-template-areas: 
-    "entete entete"
+    "entete     entete"
     "navigation sous-menu"
     "navigation liste"
-    "bas bas";
+    "bas        bas";
 }
 #logo{
     height: 50px;
@@ -84,6 +89,7 @@ border-radius:7px;
     grid-area: navigation;
     display: flex;
     flex-direction: column;
+    
 }
 main{
     grid-area: liste;
@@ -105,6 +111,9 @@ main{
     width: 200px;
     overflow: hidden;
 }
+
+
+
 
 /* bouton deroulant*/
 .btnderoule {
