@@ -3,98 +3,206 @@
     <head>
         <title>Projet</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
     </head>
-    <body>
-        <section>
+    <body >
+        <div class="container">
+        <header class="header">
+            <img src="./img/logo.jfif" id="logo" alt="logo">
+            <a href="./" id="authentification">Log in</a>
+        </header>
+        <nav class="nav">
             <ul>
-                <li><a href="?categorie=1">Action</a></li>
-                <li><a href="?categorie=2">Indie</a></li>
-                <li><a href="?categorie=3">Adventure</a></li>
-                <li><a href="?categorie=4">RPG</a></li>
-                <li><a href="?categorie=5">Strategy</a></li>
-                <li><a href="?categorie=6">Shooter</a></li>
-                <li><a href="?categorie=7">Casual</a></li>
-                <li><a href="?categorie=8">Simulation</a></li>
-                <li><a href="?categorie=9">Puzzle</a></li>
-                <li><a href="?categorie=10">Arcade</a></li>
-                <li><a href="?categorie=11">Platformer</a></li>
-                <li><a href="?categorie=12">Massively Multiplier</a></li>
-                <li><a href="?categorie=13">Racing</a></li>
-                <li><a href="?categorie=14">Sports</a></li>
-                <li><a href="?categorie=15">Fighting</a></li>
-                <li><a href="?categorie=16">Family</a></li>
-                <li><a href="?categorie=17">Board Games</a></li>
-                <li><a href="?categorie=18">Horror</a></li>
+                <li>
+                    <img src="./img/action.jpg" class="genre" alt="action">
+                    <a href="?categorie=1">Action</a>
+                </li>
+                <li>
+                    <img src="./img/indie.jpg" class="genre" alt="indie">
+                    <a href="?categorie=2">Indie</a>
+                </li>
+                <li>
+                    <img src="./img/aventure.jpg" class="genre" alt="aventure">
+                    <a href="?categorie=3">Adventure</a>
+                </li>
+                <li>
+                    <img src="./img/rpg.avif" class="genre" alt="rpg">
+                    <a href="?categorie=4">RPG</a>
+                </li>
+                <li>
+                    <img src="./img/echec.jpg" class="genre" alt="Strategy">
+                    <a href="?categorie=5">Strategy</a>
+                </li>
+                <li>
+                    <img src="./img/shooter.webp" class="genre" alt="shooter">
+                    <a href="?categorie=6">Shooter</a>
+                </li>
+                <li>
+                    <img src="./img/casual.png" class="genre" alt="casual">
+                    <a href="?categorie=7">Casual</a>
+                </li>
+                <li>
+                    <img src="./img/simulation.webp" class="genre" alt="simulation">
+                    <a href="?categorie=8">Simulation</a>
+                </li>
+                <li>
+                    <img src="./img/puzzle.jpg" class="genre" alt="puzzle">
+                    <a href="?categorie=9">Puzzle</a>
+                </li>
+                <li>
+                    <img src="./img/arcade.png" class="genre" alt="arcade">
+                    <a href="?categorie=10">Arcade</a>
+                </li>
+                <li>
+                    <img src="./img/platformer.jpg" class="genre" alt="platforme">
+                    <a href="?categorie=11">Platformer</a>
+                </li>
+                <li>
+                    <img src="./img/massively.webp" class="genre" alt="massively">
+                    <a href="?categorie=12">Massively Multiplier</a>
+                </li>
+                <li>
+                    <img src="./img/racing.jfif" alt="racing" class="genre">
+                    <a href="?categorie=13">Racing</a>
+                </li>
+                <li>
+                    <img src="./img/sport.png" alt="sport" class="genre">
+                    <a href="?categorie=14">Sports</a>
+                </li>
+                <li>
+                    <img src="./img/fight.png" alt="fight" class="genre">
+                    <a href="?categorie=15">Fighting</a>
+                </li>
+                <li>
+                    <img src="./img/family.jpg" alt="family" class="genre">
+                    <a href="?categorie=16">Family</a>
+                </li>
+                <li>
+                    <img src="./img/boardgames.jpg" alt="boardgames" class="genre">
+                    <a href="?categorie=17">Board Games</a>
+                </li>
+                <li>
+                    <img src="./img/horror.webp" alt="horror" class="genre">
+                    <a href="?categorie=18">Horror</a>
+                </li>
             </ul>
-        </section>
-        <section>
+        </nav>
+        <main>
             
-                <article><h2>Baba is you </h2>
-                    <img src="./img/babaisyou.jpg" alt="baba is you"> 
-                    <img src="./img/computer.png" alt="pc">
+                <article ><h2>Baba is you </h2>
+                    <div class="container-img"><img src="./img/babaisyou.jpg" class="affiche" alt="baba is you"> </div>
+                    <img src="./img/computer.png" class= "platforme" alt="pc">
                 </article>
-                <article><h2>Call of Duty</h2> 
-                    <img src="./img/COD.jpg" alt="call of duty"> 
-                    <img src="./img/computer.png" alt="pc">
-                    <img src="./img/playstation.png" alt="ps">
-                    <img src="./img/xbox-logo.png" alt="xbox">
+                 <article><h2>Call of Duty</h2> 
+                    <div class="container-img"><img src="./img/COD.jpg" class="affiche"  alt="call of duty"> </div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
                 </article>
                 <article><h2>Destiny 2</h2>
-                    <img src="./img/Destiny_2.jpg" alt="Destiny_2">
-                    <img src="./img/computer.png" alt="pc">
-                    <img src="./img/playstation.png" alt="ps">
-                    <img src="./img/xbox-logo.png" alt="xbox">
+                    <div class="container-img"><img src="./img/Destiny_2.jpg" class="affiche"  alt="Destiny_2"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
                 </article>
                 <article><h2>Lethal Company</h2>
-                    <img src="./img/lethal-company.jpg" alt="lethal-company">
-                    <img src="./img/computer.png" alt="pc">
+                    <div class="container-img"><img src="./img/lethal-company.jfif" class="affiche"  alt="lethal-company"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
                 </article>
                 <article><h2>Puzzle Agent</h2>
-                    <img src="./img/puzzle_agent.jpg" alt="puzzle_agent">
-                    <img src="./img/computer.png" alt="pc">
+                    <div class="container-img"><img src="./img/puzzle_agent.jpg" class="affiche"  alt="Street_Fighter"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
                 </article>
-                <article><h2>Shooting Hurt</h2>
-                    <img src="./img/shooting_hurt.jpg" alt="shooting_hurt">
-                    <img src="./img/computer.png" alt="pc">
+                <article><h2>Street Fighter</h2>
+                    <div class="container-img"><img src="./img/Street_Fighter.png" class="affiche"  alt="shooting_hurt"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
                 </article>
                 <article><h2>Sekiro</h2>
-                    <img src="./img/Sekiro.jpg" alt="Sekiro">
-                    <img src="./img/computer.png" alt="pc">
-                    <img src="./img/playstation.png" alt="ps">
-                    <img src="./img/xbox-logo.png" alt="xbox">
+                    <div class="container-img"><img src="./img/Sekiro.jpg" class="affiche"  alt="Sekiro"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
                 </article>
                 <article><h2>Horizon Zero Down</h2>
-                    <img src="./img/Horizon_Zero_Dawn.jpg" alt="Horizon_Zero_Dawn">
-                    <img src="./img/computer.png" alt="pc">
-                    <img src="./img/playstation.png" alt="ps">
+                    <div class="container-img"><img src="./img/Horizon_Zero_Dawn.jpg" class="affiche"  alt="Horizon_Zero_Dawn"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
                 </article>
                 <article><h2>Zelda</h2>
-                    <img src="./img/zelda.jpg" alt="zelda">
-                    <img src="./img/nintendo-switch.png" alt="switch">
+                    <div class="container-img"><img src="./img/ze.jpg" class="affiche"  alt="zelda"></div>
+                    <img src="./img/nintendo-switch.png" class= "platforme"  alt="switch">
                 </article>
                 <article><h2>Minecraft</h2>
-                    <img src="./img/Minecraft.png" alt="Minecraft">
-                    <img src="./img/computer.png" alt="pc">
-                    <img src="./img/playstation.png" alt="ps">
-                    <img src="./img/xbox-logo.png" alt="xbox">
-                    <img src="./img/nintendo-switch.png" alt="switch">
+                    <div class="container-img"><img src="./img/Minecraft.png" class="affiche"  alt="Minecraft"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
+                    <img src="./img/nintendo-switch.png" class= "platforme"  alt="switch">
                 </article>
                 <article><h2>PUBG</h2>
-                    <img src="./img/pubg-battlegrounds.jpg" alt="pubg">
-                    <img src="./img/computer.png" alt="pc">
-                    <img src="./img/playstation.png" alt="ps">
-                    <img src="./img/xbox-logo.png" alt="xbox">
+                    <div class="container-img"><img src="./img/pubg-battlegrounds.jfif" class="affiche"  alt="pubg"></div>
+                    <img src="./img/computer.png" class= "platforme"  alt="pc">
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
                 </article>
                 <article><h2>Mario Kart</h2>
-                    <img src="./img/mariokart.jpg" alt="mariokart">
-                    <img src="./img/nintendo-switch.png" alt="switch">
+                    <div class="container-img"><img src="./img/mariokart.jpg" class="affiche"  alt="mariokart"></div>
+                    <img src="./img/nintendo-switch.png" class= "platforme"  alt="switch">
                 </article>
                 <article><h2>Burnout 3</h2>
-                    <img src="./img/burnout3.jpg" alt="burnout3">
-                    <img src="./img/playstation.png" alt="ps">
-                    <img src="./img/xbox-logo.png" alt="xbox">
+                    <div class="container-img"><img src="./img/burnout3.jpg" class="affiche"  alt="burnout3"></div>
+                    <img src="./img/playstation.png" class= "platforme"  alt="ps">
+                    <img src="./img/xbox-logo.png" class= "platforme"  alt="xbox">
                 </article>
             
-        </section>
-    </body>
+            </main>
+            <section class="sous-menu">
+              
+                <!--<div class="deroulant">
+                    <button class="btnderoule">All Platforms</button>
+                    <div class="deroulant-contenu">
+                      <a href="./">PC</a>
+                      <a href="./">XBOX</a>
+                      <a href="./">Playstation</a>
+                      <a href="./">Nintendo</a>
+                    </div>
+                </div>
+                <div class="deroulant">
+                    <button class="btnderoule">Sort by</button>
+                    <div class="deroulant-contenu">
+                      <a href="./">A-Z</a>
+                      <a href="./">...</a>
+                      <a href="./">...</a>
+                      <a href="./">...</a>
+                    </div>
+                </div>-->
+                <select name="platforme" id="platforme"  >
+                    <option value="toutesPlateformes">Toutes les plateformes</option>
+                    <option value="pc">PC</option>
+                    <option value="xbox">XBOX</option>
+                    <option value="ps">Playstation</option>
+                    <option value="nintendo">Nintendo</option>
+                   
+                </select> 
+                <select name="trie" id="trie"  >
+                    <option value="trierPar">Trier Par</option>
+                    <option value="A-Z">A-Z</option>
+                    <option value="dateSortie">Date de sortie</option>
+                    <option value="ps">...</option>
+                    <option value="nintendo">...</option>
+                   
+                </select> 
+            </section>
+            <footer class="footer">
+                <p>Thomas Bazin et Olivier Boudreau</p>
+            </footer>
+    </div>
+</body>
 </html>
