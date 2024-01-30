@@ -1,0 +1,175 @@
+//JEUX
+let listeJeux = [
+    baba={
+        id:"baba",
+        titre:"Baba is you",
+        categorie:["indie","strategy"],
+        plateforme:["pc","switch"]
+    },
+    cod={
+        id:"cod",
+        titre:"Call of Duty",
+        categorie:["shooter","action","massivelyMulti"],
+        plateforme:["pc","xbox","ps"]
+    },
+    destiny={
+        id:"destiny",
+        titre:"Destiny 2",
+        categorie:["shooter","massivelyMulti"],
+        plateforme:["pc","xbox","ps"]
+    },
+    lethalC={
+        id:"lethalC",
+        titre:"Lethal Company",
+        categorie:["indie","strategy","horror","action"],
+        plateforme:["pc"]
+    },
+    puzzleA={
+        id:"puzzleA",
+        titre:"Puzzle Agent",
+        categorie:["casual","action"],
+        plateforme:["pc","ps"]
+    },
+    streetF={
+        id:"streetF",
+        titre:"Street Fighter",
+        categorie:["fighting"],
+        plateforme:["pc","ps"]
+    },
+    sekiro={
+        id:"sekiro",
+        titre:"Sekiro",
+        categorie:["adventure","rpg"],
+        plateforme:["pc","switch"]
+    },
+    hzd={
+        id:"hzd",
+        titre:"Horizon Zero Down",
+        categorie:["rpg","adventure"],
+        plateforme:["ps"]
+    },
+    zelda={
+        id:"zelda",
+        titre:"Zelda",
+        categorie:["adventure","strategy","family"],
+        plateforme:["switch"]
+    },
+    minecraft={
+        id:"minecraft",
+        titre:"Minecraft",
+        categorie:["action","adventure","simulation","family"],
+        plateforme:["pc","switch","xbox","ps"]
+    },
+    pubg={
+        id:"pubg",
+        titre:"PUBG",
+        categorie:["massivelyMulti","shooter"],
+        plateforme:["pc","xbox","ps"]
+    },
+    mk={
+        id:"mk",
+        titre:"Mario Kart",
+        categorie:["racing","casual","family"],
+        plateforme:["switch"]
+    },
+    burnout3={
+        id:"burnout3",
+        titre:"Burnout 3",
+        categorie:["racing","action"],
+        plateforme:["xbox","ps"]
+    }
+]
+//CATEGORIES
+let listeCategorie=[
+    action={
+        id:"action",
+        nom:"Action",
+        url:"./img/action.jpg"
+    },
+    indie={
+        id:"indie",
+        nom:"Indie",
+        url:"./img/indie.jpg"
+    },
+    adventure={
+        id:"adventure",
+        nom:"Adventure",
+        url:"./img/aventure.jpg"
+    },
+    rpg={
+        id:"rpg",
+        nom:"RPG",
+        url:"./img/action.jpg"
+    },
+    strategy={
+        id:"strategy",
+        nom:"Strategy",
+        url:"./img/action.jpg"
+    },
+    shooter={
+        id:"shooter",
+        nom:"Shooter",
+        url:"./img/action.jpg"
+    },
+    casual={
+        id:"casual",
+        nom:"Casual",
+        url:"./img/action.jpg"
+    },
+    simulation={
+        id:"simulation",
+        nom:"Simulation",
+        url:"./img/action.jpg"
+    },
+    puzzle={
+        id:"puzzle",
+        nom:"Puzzle",
+        url:"./img/action.jpg"
+    },
+    arcade={
+        id:"arcade",
+        nom:"Arcade",
+        url:"./img/action.jpg"
+    },
+    plateformer={
+        id:"platformer",
+        nom:"Platformer",
+        url:"./img/action.jpg"
+    },
+    massivelyMulti={
+        id:"massivelyMulti",
+        nom:"Massively Multiplayer",
+        url:"./img/action.jpg"
+    },
+    racing={
+        id:"racing",
+        nom:"Racing",
+        url:"./img/action.jpg"
+    },
+    sport={
+        id:"sport",
+        nom:"Sport",
+        url:"./img/action.jpg"
+    },
+    fighting={
+        id:"fighting",
+        nom:"Fighting",
+        url:"./img/action.jpg"
+    },
+    family={
+        id:"family",
+        nom:"Family",
+        url:"./img/action.jpg"
+    },
+    boardGame={
+        id:"boardGame",
+        nom:"Board Game",
+        url:"./img/action.jpg"
+    },
+    horror={
+        id:"horro",
+        nom:"Horror",
+        url:"./img/action.jpg"
+    }
+]
+//PLATFORME

@@ -21,6 +21,9 @@ article h2 {
     padding: 0px;
     font-size: 1.4rem;
 }
+article h2:hover{
+    cursor: default;
+}
 nav li{
 
     
